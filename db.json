@@ -1,9 +1,54 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "sequences": [
+    {
+      "id": 1,
+      "memberId": 54321,
+      "title": "Great new sequence",
+      "description": "This sequence is an interesting set of poses that you'll enjoy"
+    },
+    {
+      "id": 2,
+      "memberId": 54321,
+      "title": "Another new sequence",
+      "description": "This sequence is an boring set of poses that you'll never enjoy"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "sequence_items": [
+    {
+      "id": 1,
+      "memberId": 54321,
+      "sequenceId": 2,
+      "poseId": 123,
+      "customTitle": "",
+      "description": "For this down dog, start with knees bent",
+      "order": 1
+    },
+    {
+      "id": 2,
+      "memberId": 54321,
+      "sequenceId": 1,
+      "poseId": 7,
+      "customTitle": "",
+      "description": "And now twist",
+      "order": 3
+    },
+    {
+      "id": 3,
+      "memberId": 54321,
+      "sequenceId": 1,
+      "poseId": 8,
+      "customTitle": "",
+      "description": "Another forward bend",
+      "order": 2
+    },
+    {
+      "id": 4,
+      "memberId": 54321,
+      "sequenceId": 1,
+      "poseId": 9,
+      "customTitle": "",
+      "description": "Hold for three breaths",
+      "order": 1
+    }
+  ]
 }
